@@ -27,11 +27,11 @@ function App() {
           <Header />
           <section className={styles.App_section}>
             <Switch>
-              <Route exact path="/news" component={UndonePage} />
-              <Route exact path="/" component={BusDynamicsPage} />
-              <Route exact path="/router-search" component={UndonePage} />
-              <Route exact path="/near-router" component={UndonePage} />
-              <Route exact path="/other-info" component={UndonePage} />
+              <Route exact path="/twBus/news" component={UndonePage} />
+              <Route exact path="/twBus" component={BusDynamicsPage} />
+              <Route exact path="/twBus/router-search" component={UndonePage} />
+              <Route exact path="/twBus/near-router" component={UndonePage} />
+              <Route exact path="/twBus/other-info" component={UndonePage} />
             </Switch>
           </section>
           <Footer />
