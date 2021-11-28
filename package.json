@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://ptx.transportdata.tw/MOTC",
-  "homepage": "./twBus",
   "jest": {
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/index.js",
