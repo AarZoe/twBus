@@ -2,7 +2,8 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://ptx.transportdata.tw/MOTC",
+  // "proxy": "https://ptx.transportdata.tw/MOTC",
+  "homepage": "./",
   "jest": {
     "coveragePathIgnorePatterns": [
       "<rootDir>/src/index.js",

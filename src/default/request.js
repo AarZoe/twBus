@@ -27,7 +27,7 @@ export default (method0, uri, ...args) => {
     [qs, post, attaches] = args;
   }
 
-  const req = request[method](uri)
+  const req = request[method](`https://ptx.transportdata.tw/MOTC${uri}`)
     .query(qs)
     .send(post);
 
