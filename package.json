@@ -51,7 +51,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "react-scripts build",
     "test": "craco test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "api-server": "node api/index.js",
