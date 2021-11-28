@@ -13,11 +13,11 @@ const MenuList = () => {
 
 
   const menuItem = [
-    { name: t('menu.NEWS'), to: '/news' },
-    { name: t('menu.BUSACTION'), to: '/' },
-    { name: t('menu.ROUTERSEARCH'), to: '/router-search' },
-    { name: t('menu.NEARROUTER'), to: '/near-router' },
-    { name: t('menu.OTHERINFO'), to: '/other-info' },
+    { name: t('menu.NEWS'), to: '/twBus/news' },
+    { name: t('menu.BUSACTION'), to: '/twBus' },
+    { name: t('menu.ROUTERSEARCH'), to: '/twBus/router-search' },
+    { name: t('menu.NEARROUTER'), to: '/twBus/near-router' },
+    { name: t('menu.OTHERINFO'), to: '/twBus/other-info' },
   ];
 
   return (
